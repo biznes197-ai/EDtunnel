@@ -1,7 +1,7 @@
-name = "app-001"
+name = "Worker_test"
 main = "src/_worker.js"
 compatibility_date = "2026-11-01"
 workers_dev = true
 
-# UUID НЕ пишем здесь — зададим через Cloudflare Variables
-# Это скроет его из публичного репозитория
+[vars]
+UUID = "89aeea61-e296-4387-93b2-a9842b2a17d9"
